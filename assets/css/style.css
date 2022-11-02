@@ -1,0 +1,89 @@
+body {
+    overflow: hidden;
+    background: rgb(145, 78, 78);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+div.background {
+    text-align: center;
+    padding: 10px 0 0 0;
+    height: 100vh;
+    color: aliceblue;
+    overflow: hidden;
+}
+
+div.calculadora {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(69, 70, 67);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px black ;
+}
+
+.botão {
+    width: 60px;
+    height: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(188, 185, 189);
+    border-color: rgb(222, 223, 224);
+    transition: all .2s;
+}
+
+.botão:hover {
+    transform: scale(1.1);
+    background-color: rgb(101, 102, 102);
+    border: none;
+
+}
+
+#resultado {
+    background: white;
+    width: 261px;
+    height: 50px;
+    border:1px double  rgb(0, 0, 0);
+    margin: 0 auto 10px 0;
+    color: black;
+    text-align: right;
+    font-size: 26px;
+    
+}
+
+.btn-cor {
+    background-color: rgb(94, 116, 241);
+    border-color: rgb(113, 133, 245);
+}
+
+.btn-cor:hover {
+    background-color: rgb(73, 90, 185);
+    border: none;
+}
+
+.btn-especial {
+    background-color: rosybrown;
+    border-color: rgb(248, 189, 189);
+}
+
+.btn-especial:hover {
+    background-color:rgb(143, 110, 110);
+    border: none;
+}
+
+
+.footer {
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    font-size: 8px;
+}
